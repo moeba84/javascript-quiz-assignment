@@ -11,7 +11,7 @@ var questions=[
         answer: "==="
     }
 ]
-questionsEl.innerHTML=questions[0]
+questionsEl.innerHTML= questions[0]
 function getQuestion(){
     var currentQuestion= questions[
          currentquestionIndex
@@ -19,7 +19,12 @@ function getQuestion(){
     var titleEl= document.getelementbyid("questiontitle")
     titleEl.textContent= currentQuestion.title
     for(var i=0;i<currentQuestion.choices.length; i++)
-    var choice = currentQuestion.choices[i]
+    var choice = currentQuestion.choices[i] [
+        choiceIndex
+    ]
+    
+    
+
     
 
 }
